@@ -5,4 +5,4 @@ Designing this one mobile first which is new to me.
 
 Mobile part finished.
 
-Need to learn media queries so I can finish the desktop version
+Started playing around with media queries, desktop version in progress
