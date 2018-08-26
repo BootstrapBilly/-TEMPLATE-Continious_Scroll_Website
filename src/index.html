@@ -7,7 +7,9 @@
   <title>Site Title</title>
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/style.css">
+  <!-- stylesheet applied until 600px -->
+  <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/style.css">
+  <link rel="stylesheet" media="screen and (min-width: 601px)" href="css/desktop.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
 </head>
 <body>
@@ -180,7 +182,7 @@
       <section id="mini-section1">
                 
           <!-- Container for Mini-section1 -->
-          <main class="container py-3 bg-primary">
+          <main class="container-fluid py-3 bg-primary">
             
             <!-- Container for phone contact details -->
             <div class="pl-5" id="phone-contact">

@@ -1,0 +1,27 @@
+$primary-overlay:rgba(0, 0, 0, 0.85);
+
+#section1{
+    position:relative;
+    background:url('../img/showcase.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height:32rem;
+  
+    .primary-overlay{
+      background:$primary-overlay;
+      position:absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+    }
+  }
+
+  #phone-contact, #email-contact {
+
+    padding-right: 50px;
+    display: inline;
+
+  }
