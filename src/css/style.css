@@ -6,16 +6,13 @@
   -o-background-size: cover;
   background-size: cover;
   min-height: 18rem; }
-  #section1 .primary-overlay {
-    background: rgba(0, 0, 0, 0.85);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; }
+  #section1 #showcase-name {
+    background-color: rgba(0, 0, 0, 0.75); }
+  #section1 #showcase-description {
+    display: none; }
 
 #contact {
-  font-size: 22px; }
+  font-size: 16px; }
 
 #footer {
-  background-color: rgba(0, 0, 0, 0.85); }
+  background-color: rgba(0, 0, 0, 0.75); }

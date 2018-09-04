@@ -58,25 +58,24 @@
 
       <section id="section1">
 
-        <!-- Overlay for the showcase image -->
-        <div class="primary-overlay">
-
            <!-- Container for section 1 -->
           <main class="container py-5">
 
+            
             <!-- Company Name goes here -->
-            <h2 class="text-white text-center pt-3">
+            <h2 class="text-white text-center py-1 mt-5" id="showcase-name">
               Company name here
             </h2>
 
             <!-- Description of what the company do here -->
-            <p class="text-white text-center lead pt-1">
+            <p class="text-white text-center lead py-1 mt-5" id="showcase-description">
               A bit about what the company do here --, adipisicing elit. Accusamus quisquam non quam totam, dolorem veniam deserunt natus similique nostrum?
             </p>
 
+          
           </main> 
           
-        </div>
+        
 
       </section>
 
@@ -180,30 +179,63 @@
       <!--================================================== Mini-section1 - Get in touch ============================================= --> 
 
       <section id="mini-section1">
-                
+           
           <!-- Container for Mini-section1 -->
           <main class="container-fluid py-3 bg-primary">
             
-            <!-- Container for phone contact details -->
-            <div class="pl-5" id="phone-contact">
-              <!-- Phone icon -->
-                <img src="img/phone.svg" height="40px">
-                <!-- Phone text-->
-                <span class="ml-1"><a class="text-white" href="tel:0208 666 666"><u id="contact">0208 666 666</u></a></span>
+            <!-- Row-->
+            <div class="row">
+
+              <!-- Left Col - contact details -->
+              <div class="col-9 pt-2">
+
+                <!-- Container for phone contact details -->
+                <div id="phone-contact" >
+                    <!-- Phone text-->
+                    <a class="text-white pl-2" href="tel:0208 666 666"><span>Call Us : </span><u id="contact">0208 666 666</u></a>
+
+                <!-- Container for phone email details -->
+                <div id="email-contact">
+                    <!-- email text --> 
+                    <a class="text-white pl-2" href="mailto:name@email.com"><span>Email : </span><u id="contact">email@domain.com</u></a>
+
+                </div>
+              
+              </div>
+              
             </div>
 
-            <!-- Container for phone email details -->
-            <div class="pl-5" id="email-contact">
-              <!-- email icon -->                                             
-                <img src="img/mail.svg" height="40px" class="mt-1">
-                <!-- email text --> 
-                <span class="ml-1"><a class="text-white" href="mailto:name@email.com"><u id="contact">email@domain.com</u></a></span>
+              <!-- right Col - social media icons  -->
+              <div class="col-3">
+                
+                <!-- Sub Row 1-->
+                <div class="row">
+
+                  <!-- Icon 1-->
+                  <img src="img/facebook.svg" class="m-1" height="25px">
+                  <!-- Icon 2-->
+                  <img src="img/twitter.svg" class="m-1" height="25px">
+
+                </div>
+
+                <!-- Sub Row 1-->
+                <div class="row">
+
+                  <!-- Icon 3-->
+                  <img src="img/instagram.svg" class="m-1" height="25px">
+                  <!-- Icon 4-->
+                  <img src="img/whatsapp.svg"  class="m-1" height="25px">
+
+                </div>
+                
 
             </div>
-                     
-          </main>
+
+          </div>
+
+        </main>
   
-        </section>
+      </section>
             <!--================================================== section3 ============================================= --> 
 
             <section id="section3">
