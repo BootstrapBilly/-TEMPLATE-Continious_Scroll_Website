@@ -1,0 +1,23 @@
+#section1 {
+  position: relative;
+  background: url("../img/showcase.jpg");
+  background-size: cover;
+  min-height: 18rem;
+}
+
+#section1 #showcase-name {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+#section1 #showcase-description {
+  display: none;
+}
+
+#contact {
+  font-size: 16px;
+}
+
+#footer {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+/*# sourceMappingURL=style.css.map */
