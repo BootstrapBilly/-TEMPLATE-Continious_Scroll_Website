@@ -20,11 +20,8 @@ body {
   padding: 0px 10px; }
 
 #section2 {
-  margin: 20px 0px 0px 50px;
+  margin: 20px 50px 0px 50px;
   padding: 0px 10px; }
-
-#map {
-  height: auto; }
 
 #section3 {
   margin: 0px 50px;
@@ -39,7 +36,7 @@ body {
   background-color: rgba(0, 0, 0, 0.85);
   display: inline-block; }
 
-#phone-contact a, #email-contact a {
+#phone-contact, #email-contact {
   padding-right: 50px;
   display: inline; }
 

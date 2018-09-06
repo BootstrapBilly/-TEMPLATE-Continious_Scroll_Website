@@ -22,6 +22,13 @@ $primary-overlay:rgba(0, 0, 0, 0.85);
     padding: 30px;
   }
 
+  #map{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px;
+  }
+
   #section3{
     padding: 30px;
   }
@@ -37,10 +44,9 @@ $primary-overlay:rgba(0, 0, 0, 0.85);
   display: inline-block;
 }
 
-  #phone-contact, #email-contact {
-
-    padding-right: 50px;
+  #phone-contact, #email-contact{
     display: inline;
+    font-size: 25px;
 
   }
 

@@ -16,6 +16,12 @@
 #section2 {
   padding: 30px; }
 
+#map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px; }
+
 #section3 {
   padding: 30px; }
 
@@ -29,8 +35,8 @@
   display: inline-block; }
 
 #phone-contact, #email-contact {
-  padding-right: 50px;
-  display: inline; }
+  display: inline;
+  font-size: 25px; }
 
 #footer {
   background-color: rgba(0, 0, 0, 0.85); }

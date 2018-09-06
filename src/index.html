@@ -10,7 +10,8 @@
   <!-- stylesheet applied until 767px -->
   <link rel="stylesheet" media="screen and (max-width: 767px)" href="css/style.css">
   <link rel="stylesheet" media="screen and (min-width: 768px)" href="css/ipad.css">
-  <link rel="stylesheet" media="screen and (min-width: 1222px)" href="css/desktop.css">
+  <link rel="stylesheet" media="screen and (min-width: 992px)" href="css/desktop.css">
+  <link rel="stylesheet" media="screen and (min-width: 1400px)" href="css/xl.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
 </head>
 <body>
@@ -69,6 +70,12 @@
            <!-- Container for section 2 -->
           <main class="container-fluid pb-4">
             
+            <!-- Row -->
+            <div class="row">
+
+            <!-- Left col -->
+            <div class="col-lg-6">
+
             <!-- Accordion starts here -->
             <div class="accordion px-2" id="accordion">
 
@@ -86,7 +93,7 @@
                   </div>
                   
                   <!-- First Accordion Section description container -->
-                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
 
                     <!-- First Accordion Section descrption text -->
                     <div class="card-body">
@@ -149,9 +156,21 @@
 
               </div>
 
-          </main> 
+            </div>
+
+            <!-- Right col -->
+            <div class="col-lg-6">
+              
+              <!-- Map API -->
+              <img src="img/map.png" id="map" class="img-fluid">
+
+            </div>
+
+          </div>
+
+        </main> 
           
-      </section>
+    </section>
 
 
             <!--================================================== section3 ============================================= --> 
@@ -159,7 +178,7 @@
             <section id="section3">
         
                 <!-- Container for section3 -->
-                <main class="container-fluid py-4">
+                <main class="container-fluid pb-4">
 
                   <!-- Row -->
                   <div class="row">
@@ -168,7 +187,7 @@
                       <div class="col-sm-4">
 
                         <!-- Card 1 -->
-                          <div class="card mt-1 mx-2">
+                          <div class="card mt-2 mx-2">
 
                             <!-- Image of work goes here -->
                               <img class="card-img-top" src="img/2.jpg" alt="Card image cap" height="200">
@@ -247,7 +266,7 @@
           <div class="row">
 
             <!-- Left Col - contact details -->
-            <div class="col-9 pt-2 mt-1">
+            <div class="col-9 col-sm-10 pt-2 mt-1">
 
               <!-- Container for phone contact details -->
               <div id="phone-contact" >
@@ -266,7 +285,7 @@
           </div>
 
             <!-- right Col - social media icons  -->
-            <div class="col-3">
+            <div class="col-3 col-sm-2">
               
               <!-- Sub Row 1-->
               <div class="row">
