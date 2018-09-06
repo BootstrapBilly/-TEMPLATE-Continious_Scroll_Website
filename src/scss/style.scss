@@ -7,10 +7,13 @@ $primary-overlay:rgba(0, 0, 0, 0.75);
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    min-height:18rem;
+    min-height:23rem;
 
     #showcase-name {
         background-color: $primary-overlay;
+        margin-top: 4em;     
+        padding: 15px;
+        
     }
     
     #showcase-description {

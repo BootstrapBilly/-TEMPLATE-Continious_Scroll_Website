@@ -1,0 +1,35 @@
+.bg-darkk {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+#section1 {
+  position: relative;
+  background: url("../img/showcase.jpg");
+  background-size: cover;
+  min-height: 32rem;
+}
+
+#section2 {
+  padding: 30px;
+}
+
+#showcase-name {
+  background-color: rgba(0, 0, 0, 0.85);
+  display: inline-block;
+  padding: 20px;
+}
+
+#showcase-description {
+  background-color: rgba(0, 0, 0, 0.85);
+  display: inline-block;
+}
+
+#phone-contact, #email-contact {
+  padding-right: 50px;
+  display: inline;
+}
+
+#footer {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+/*# sourceMappingURL=desktop.css.map */
