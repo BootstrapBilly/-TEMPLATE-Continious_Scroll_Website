@@ -15,6 +15,10 @@
   display: none;
 }
 
+#map {
+  display: none;
+}
+
 #contact {
   font-size: 16px;
 }

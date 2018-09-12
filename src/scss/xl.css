@@ -2,6 +2,10 @@
   background-color: rgba(0, 0, 0, 0.9);
 }
 
+body {
+  background-color: green;
+}
+
 #section1 {
   position: relative;
   background: url("../img/showcase.jpg");
@@ -13,19 +17,23 @@
   display: none;
 }
 
-#section2 {
-  padding: 30px;
+#section {
+  padding: 0px 10px;
 }
 
-#map {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
+#section2 {
+  margin: 20px 250px 0px 250px;
+  padding: 0px 10px;
+}
+
+#desktop-text {
+  font-size: 1.2vw;
+  padding: 30px;
 }
 
 #section3 {
-  padding: 30px;
+  margin: 0px 250px;
+  padding: 0px 10px;
 }
 
 #showcase-name {
@@ -40,12 +48,11 @@
 }
 
 #phone-contact, #email-contact {
+  padding-right: 50px;
   display: inline;
-  font-size: 24px;
-  padding-left: 10px;
 }
 
 #footer {
   background-color: rgba(0, 0, 0, 0.85);
 }
-/*# sourceMappingURL=ipad.css.map */
+/*# sourceMappingURL=xl.css.map */

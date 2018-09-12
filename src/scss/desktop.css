@@ -1,3 +1,7 @@
+.bg-darkk {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
 #section1 {
   position: relative;
   background: url("../img/showcase.jpg");
@@ -5,17 +9,52 @@
   min-height: 32rem;
 }
 
-#section1 .primary-overlay {
-  background: rgba(0, 0, 0, 0.85);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+#mini-section1 {
+  display: none;
 }
 
-#phone-contact, #email-contact {
+#section {
+  padding: 0px 10px;
+}
+
+#section2 {
+  margin: 0px 50px;
+  padding: 0px 10px;
+  margin-top: 20px;
+}
+
+#desktop-text {
+  padding: 20px;
+  font-size: 1.7vw;
+}
+
+#map {
+  margin-top: 0px;
+  min-height: 330px;
+}
+
+#section3 {
+  margin: 0px 50px;
+  padding: 0px 10px;
+}
+
+#showcase-name {
+  background-color: rgba(0, 0, 0, 0.85);
+  display: inline-block;
+  padding: 20px;
+}
+
+#showcase-description {
+  background-color: rgba(0, 0, 0, 0.85);
+  display: inline-block;
+}
+
+#phone-contact a, #email-contact a {
   padding-right: 50px;
   display: inline;
+}
+
+#footer {
+  background-color: rgba(0, 0, 0, 0.85);
 }
 /*# sourceMappingURL=desktop.css.map */

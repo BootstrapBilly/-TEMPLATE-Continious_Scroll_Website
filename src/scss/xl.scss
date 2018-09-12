@@ -4,7 +4,7 @@ $primary-overlay:rgba(0, 0, 0, 0.85);
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-body{background-color: green;}
+//body{background-color: green;}
 
 #section1{
     position:relative;
@@ -27,6 +27,11 @@ body{background-color: green;}
 #section2{
   margin: 20px 250px 0px 250px;
   padding: 0px 10px;
+}
+
+#desktop-text{
+  font-size:1.2vw;
+  padding: 30px;
 }
 
   #section3{
