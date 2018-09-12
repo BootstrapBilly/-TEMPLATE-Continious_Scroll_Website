@@ -3,6 +3,4 @@ A template I'm making for a continuous scroll website so I can make them easier 
 
 Designing this one mobile first which is new to me.
 
-Mobile part finished.
-
-Started playing around with media queries, desktop version in progress
+Finished and fully responsive 12/09/2018
